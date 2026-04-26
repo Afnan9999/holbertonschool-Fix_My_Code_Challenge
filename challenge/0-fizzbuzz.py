@@ -14,5 +14,5 @@ for i in range(1, n + 1):
     else:
         result.append(str(i))
 
-print(" ".join(result))
+sys.stdout.write(" ".join(result) + "\n")
 
